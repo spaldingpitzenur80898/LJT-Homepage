@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am **Junteng Liu**, a first-year Ph.D. candidate in Computer Science at the Hong Kong University of Science and Technology (HKUST), where I am a member of the HKUST NLP Group advised by Professor Junxian He. I received my B.Eng. from Shanghai Jiao Tong University (SJTU), graduating in June 2024.
 
 My research focuses on natural language processing and machine learning.
@@ -54,7 +56,7 @@ Publications
 * Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, <b>Junteng Liu</b>, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He. **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models.** *NeurIPS*, 2023.
 * Jinghan Zhang, Shiqi Chen, <b>Junteng Liu</b>, Junxian He. **Composing Parameter-Efficient Modules with Arithmetic Operations.** *NeurIPS*, 2023.
 
-A complete list can also be found on the [Publications](/publications/) page.
+A complete list can also be found on the [Publications]({{ base_path }}/publications/) page.
 
 Contact
 ======
